@@ -1,0 +1,9 @@
+version: 2
+sources:
+  - name: gz_raw_data
+    database: focal-healer-484810-k1
+    schema: gz_raw_data
+    tables:
+      - name: raw_gz_product
+      - name: raw_gz_sales
+      - name: raw_gz_ship
