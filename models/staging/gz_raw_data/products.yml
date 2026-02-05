@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: stg_raw_gz_product
+    columns:
+      - name: products_id
+    tests:
+      - unique:
+          column_name: products_id
+      - not_null:
+          column_name: products_id
